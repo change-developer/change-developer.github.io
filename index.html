@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Embark</title>
+    <link rel="stylesheet" href="AOAI.css">
+</head>
+<body>
+    <header>
+        <h1>NexEmbark</h1>
+    </header>
+    <main>
+        <div class="site-top">
+            <div class="site-top-content">
+                <h1>NexEmbark</h1>
+                <p>~AIがあなたの業務に革命を与える~</p>
+                <a href="https://www.change-jp.com/contact/" class="btn">問い合わせ</a>
+            </div>
+        </div>
+        <section class="service">
+            <h2>【 サービス概要 】</h2>
+            <p class="explanation">
+                NexEmbark(ネクセンバーク)は、AIを活用した業務効率化ツールのプラットを目指し、開発いたしました。</br>
+                ”通常モード”、"社内文書検索"、”グラフ生成”の3つモードを用意しております。<br/>
+                UIについては、オープンソースであるChatbotUIを使用し、チャット形式で利用可能となっております。
+            </p>
+            <div class="overview-container">
+                <div class="overview-lists">
+                    <img class="overview-icon" src="./AOAI_Photo/comment.png"alt="代替テキスト">
+                    <p>通常モード(AI回答生成)</p>
+                </div>
+                <div class="overview-lists">
+                    <img class="overview-icon" src="./AOAI_Photo/document.png"alt="代替テキスト">
+                    <p>社内文書検索</p>
+                </div>
+                <div class="overview-lists">
+                    <img class="overview-icon" src="./AOAI_Photo/graph.png"alt="代替テキスト">
+                    <p>グラフ生成</p>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <h2>【 画面トップ 】</h2>
+            <p class="explanation">
+                機能選択欄より、”通常モード”、"社内文書検索"、”グラフ生成”の3つモードが切り替え可能となっております。</br>
+                会話の履歴、通常モードの回答精度を調整するパラメータ欄も用意しています。
+            </p>
+            <img class="explain-image-big"src="./AOAI_Photo/service-top.png"alt="代替テキスト">
+        </section>    
+        <section class="service">
+            <h2>【 通常モード 】</h2>
+            <p class="explanation">
+                AIの回答生成モードになっており、汎用的な使い方ができるモードとなっています。</br>
+                不明な点を聞く以外にも、議事録の添削やメール文の作成等、多くの場面で利用可能です。</br>
+                チャット形式のユーザが使いやすいUIを採用しております。
+            </p>
+            <img class="explain-image-big"src="./AOAI_Photo/chat.png"alt="代替テキスト">
+        </section>
+        <section class="service">
+            <h2>【 社内文書検索 】</h2>
+            <p class="explanation">
+                社内文書検索モードは、社内の多くの文献を事前にAzureのサービスに格納いただき、その文献を元にAIが回答を生成する機能になります。</br>
+                下記は、デジタル庁の文献を格納し、回答を行った例になります。</br>
+                使用した文献: <a href="https://www.digital.go.jp/news/yS0M_VaX">https://www.digital.go.jp/news/yS0M_VaX</a> 左記サイト内のデジタル・ガバメント推進標準ガイドラインよりダウンロード(2023/11/27)
+            </p>
+            <img class="explain-image-big"src="./AOAI_Photo/document-function.png#alt="ここに画像">
+        </section>
+        <section class="service">
+            <h2>【 グラフ生成 】</h2>
+            <h3>グラフ生成 概要</h3>
+            <p class="explanation">
+                事前に参照先として設定しているデータから、ユーザのプロンプトに応じたグラフを生成します。</br>
+                現在折れ線グラフ、棒グラフ、円グラフに対応しております。
+            </p>
+            <img class="explain-image-big"src="./AOAI_Photo/graph-function.png"alt="代替テキスト">
+            <h3>特徴/メリット</h3>
+            <p class="explanation">
+                NexEmbarkのグラフ生成最大の特徴は、ユーザはプロンプトを入力するのみという手軽さ、簡単さです。</br>
+                DBの知識やデータサイエンスの知識は不要であり、グラフの縦軸や横軸の値を考える手間などもないため、ユーザの負担や時間を最小限に抑えることが可能です。
+            </p>
+            <img class="explain-image-small"src="./AOAI_Photo/graph-function-merit.png"alt="代替テキスト">
+            <h3>仕組みの概要</h3>
+            <p class="explanation">
+                ユーザの入力内容に応じたSQLをChatGPTに生成させ、そのSQLの結果をグラフ化する仕組みになっています。</br>
+            </p>
+            <img class="explain-image-medium"src="./AOAI_Photo/graph-function-system-explaination.png"alt="代替テキスト">
+        </section>
+    </main>
+    
+    <footer>
+        <p>Copyright © CHANGE, Inc. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

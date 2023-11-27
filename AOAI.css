@@ -1,0 +1,146 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+main {
+    padding: 20px;
+}
+
+.site-top {
+    background-image: url('./AOAI_Photo/site-top-image.png');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.site-top-content {
+    max-width: 80%;
+    height:auto;
+    position: absolute;
+    top: 40%; /* 画像の上からの距離を調整 */
+    left: 10%; /* 画像左側に余白を作るために調整 */
+    transform: translateY(-50%);
+}
+
+.site-top-content h1 {
+    max-width: 80%;
+    padding:20px 100px 0px 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+.site-top-content p{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.text-area{
+    width:30%;
+}
+
+.service {
+    background-color: #fff;
+    padding: 40px;
+    margin: 2% 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    max-width: 100%;
+    height: auto;
+}
+
+.service h2{
+    text-align: left;
+    margin-left:15%;
+}
+.service h3{
+    text-align: left;
+    margin-left:16%;
+    text-decoration: underline;
+}
+
+.explanation{
+    text-align: left;
+    margin-left:16%;
+    margin-right:16%;
+}
+
+/* Style the footer */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+}
+
+.overview-icon{
+    max-width: 50%;
+    height: auto;
+}
+
+.overview-container{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top:2%;
+    margin-left:15%;
+    margin-right: 5%;
+    max-width: 60%;
+    height: auto;
+}
+
+.overview-lists p{
+    font-weight: bold;
+    margin:5%;
+}
+
+.explain-image-big{
+    max-width: 70%;
+    height: auto;
+    margin:1%;
+}
+
+.explain-image-small{
+    max-width: 45%;
+    height: auto;
+    margin-top:3%;
+    margin-bottom: 5%;
+    margin-right:20%;
+}
+
+.explain-image-medium{
+    max-width: 50%;
+    height: auto;
+    margin-top:3%;
+    margin-right:15%;
+}
